@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>URL shortening API landing page</title>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="loader"></div>
+    
+    <header>
+        <div class="container">
+            <div>
+                <img src="images/logo.svg" alt="">
+                <ul class="menu">
+                    <li><a href="#">features</a></li>
+                    <li><a href="#">pricing</a></li>
+                    <li><a href="#">resources</a></li>
+                    <div class="btns">
+                        <button>Login</button>
+                        <button>sign up</button>
+                    </div>
+                </ul>
+                <i class="fa-solid fa-bars menu-icon"></i>
+            </div>
+            <div>
+                <button>Login</button>
+                <button>sign up</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="startup">
+        <div class="container">
+            <div>
+                <h1>More than just shorter links</h1>
+                <p>build your brand's recognition and get detailed insights on how your links are performing</p>
+                <button><a href="#input-container">get started</a></button>
+            </div>
+            <div>
+                <img src="images/illustration-working.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="statistiques">
+        <div class="container">
+            <div class="input-container" id="input-container">
+                <input type="text" placeholder="Shorten a link here..." class="link-input">
+                <button class="shorten-btn">shorten it!</button>
+                <div class="error-msg"></div>
+            </div>
+            <div class="links-shorten"></div>
+            <h2>advanced statistiques</h2>
+            <p>Track how your links are performing across the 
+                web with our advanced statistics dashboard</p>
+            <div class="advanced">
+                <div>
+                    <img src="images/icon-brand-recognition.svg" alt="">
+                    <h4>brand recognition</h4>
+                    <p>Boost your brand recognition with each click. Generic links don’t 
+                        mean a thing. Branded links help instil confidence in your content.</p>
+                </div>
+                <div>
+                    <img src="images/icon-detailed-records.svg" alt="">
+                    <h4>detailed records</h4>
+                    <p>Gain insights into who is clicking your links. Knowing when and where 
+                        people engage with your content helps inform better decisions.</p>
+                </div>
+                <div>
+                    <img src="images/icon-fully-customizable.svg" alt="">
+                    <h4>fully customizable</h4>
+                    <p>Improve brand awareness and content discoverability through customizable 
+                        links, supercharging audience engagement.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="boost">
+        <div class="container">
+            <h2>Boost your links today</h2>
+            <button><a href="#input-container">get started</a></button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <img src="images/footer-logo.svg" alt="">
+            <div class="links">
+                <div>
+                    <a href="#">features</a>
+                    <a href="#">link shorting</a>
+                    <a href="#">branded links</a>
+                    <a href="#">analytics</a>
+                </div>
+                <div>
+                    <a href="#">resources</a>
+                    <a href="#">blog</a>
+                    <a href="#">developers</a>
+                    <a href="#">support</a>
+                </div>
+                <div>
+                    <a href="#">company</a>
+                    <a href="#">about</a>
+                    <a href="#">our team</a>
+                    <a href="#">careers</a>
+                    <a href="#">contact</a>
+                </div>
+            </div>
+            <div class="icons">
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
